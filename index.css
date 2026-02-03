@@ -1135,3 +1135,7 @@
 .flex.flex-col.mt-12.p-4{
  display: none!important;   
 }
+
+#sec-log-btn-login-page + div{
+    display: none!important;
+}
