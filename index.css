@@ -31,7 +31,11 @@
   --radius-lg: 16px;
 }
 
-
+/*hide Singup from login*/
+#sec-log-btn-login-page + div{
+    display: none!important;
+}
+/*hide Singup from login end*/
 /* //hide invoices view all link */
 #custom-cards-container + div > .overflow-auto:has(#contracts-view-all) {
   display: none !important;
@@ -1134,8 +1138,4 @@
 
 .flex.flex-col.mt-12.p-4{
  display: none!important;   
-}
-
-#sec-log-btn-login-page + div{
-    display: none!important;
 }
